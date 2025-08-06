@@ -41,10 +41,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`font-poppins relative bg-background/95 text-[#fff]`}
+      className={`font-poppins sticky inset-x-0 top-0 left-0 w-full z-50 bg-background/95 text-[#fff] flex flex-col overflow-visible`}
     >
       {/* --- MOBILE HEADER --- */}
-      <div className="w-full px-5 py-3 shadow-md md:hidden relative flex items-center justify-between">
+      <div className="backdrop-blur-sm w-full px-5 py-3 shadow-md md:hidden relative flex items-center justify-between">
         {/* Logo */}
         <div className='flex flex-1'>
           <Link href="/" className="flex-shrink-0 z-10">
@@ -70,16 +70,18 @@ export default function Navbar() {
             onClick={() => setMobileOpen((o) => !o)}
           />
         </div>
+      </div>
 
         {/* MOBILE SLIDE-DOWN MENU */}
-        <nav
+      <nav
           className={`
             absolute top-full left-0 w-full
-            bg-background/90 backdrop-blur-md
+            bg-background/95 backdrop-blur-sm
             rounded-b-xl
             z-50
             flex flex-col items-center space-y-6 py-4
             text-l
+            overflow-hidden
             transition-[max-height,opacity] duration-700 ease-out
             ${
               mobileOpen
@@ -117,8 +119,7 @@ export default function Navbar() {
               <LocaleSwitcher />
             </div>
           </div>
-        </nav>
-      </div>
+      </nav>
 
       {/* --- DESKTOP HEADER (md+) --- */}
       <div className="hidden md:flex items-center justify-between w-full px-9 py-3 shadow-md">

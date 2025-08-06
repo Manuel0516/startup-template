@@ -12,5 +12,8 @@ module.exports = {
         }
       },
     },
+    corePlugins: {
+      isolation: true,
+    },
   };
   
