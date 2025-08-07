@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`font-poppins sticky inset-x-0 top-0 left-0 w-full z-50 bg-background/95 text-[#fff] flex flex-col overflow-visible`}
+      className={`font-poppins sticky inset-x-0 top-0 left-0 w-full z-50 bg-background/90 text-[#fff] flex flex-col overflow-visible`}
     >
       {/* --- MOBILE HEADER --- */}
       <div className="backdrop-blur-sm w-full px-5 py-3 shadow-md md:hidden relative flex items-center justify-between">
@@ -76,7 +76,7 @@ export default function Navbar() {
       <nav
           className={`
             absolute top-full left-0 w-full
-            bg-background/95 backdrop-blur-sm
+            bg-background/90 backdrop-blur-sm
             rounded-b-xl
             z-50
             flex flex-col items-center space-y-6 py-4
@@ -122,7 +122,7 @@ export default function Navbar() {
       </nav>
 
       {/* --- DESKTOP HEADER (md+) --- */}
-      <div className="hidden md:flex items-center justify-between w-full px-9 py-3 shadow-md">
+      <div className="hidden md:flex items-center justify-between w-full px-9 py-3 backdrop-blur-sm shadow-md">
           {/* Logo */}
           <Link href="/" className="ml-2 flex items-center space-x-2">
             <Image

@@ -1,15 +1,25 @@
 {
-
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale}"
+  },
 
   "Navbar": {
     "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "stay": "Stay",
-    "book": "Book",
-    "reviews": "Reviews"
+    "features": "Features",
+    "apis": "APIs",
+    "contact": "Contact"
   },
 
+  "Footer": {
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "linkedin": "LinkedIn",
+    "brand": "by KARL Irrigation.",
+    "rights": "All rights reserved."
+  },
+  
   "HomePage": {
     "ImageAlt": "Image of Azores islands",
     "title": "THERAPIES ALTERNATIVES",

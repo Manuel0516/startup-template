@@ -5,6 +5,7 @@
 /* 3. Base font family */
 html {
   font-family: 'poppins';
+  scroll-behavior: smooth;
 }
 
 :root {

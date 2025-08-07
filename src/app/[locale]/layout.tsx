@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Poppins, Open_Sans } from 'next/font/google'
 import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import type { Metadata } from 'next';
 import '../globals.css';
 
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
           <div>
             <Navbar />
             {children}
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>
