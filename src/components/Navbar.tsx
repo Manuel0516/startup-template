@@ -33,11 +33,15 @@ export default function Navbar() {
   };
   
 
-  // Determine the "current" label based on pathname
+  // Determine the "current" label based on pathname (without locale and hash)
   const currentLabel = useMemo(() => {
-    const match = NAV_ITEMS.find((item) => item.href === pathname);
+    const normalizedPath = cleanPath.toLowerCase().split('#')[0]; // remove hash
+    const match = NAV_ITEMS.find((item) => {
+      const itemPath = item.href.toLowerCase().split('#')[0];
+      return normalizedPath === itemPath;
+    });
     return match?.label ?? t('home');
-  }, [NAV_ITEMS, pathname, t]);
+  }, [NAV_ITEMS, cleanPath, t]);
 
   return (
     <header
@@ -75,6 +79,7 @@ export default function Navbar() {
         {/* MOBILE SLIDE-DOWN MENU */}
       <nav
           className={`
+            w-full 
             absolute top-full left-0 w-full
             bg-background/90 backdrop-blur-sm
             rounded-b-xl

@@ -52,6 +52,27 @@
     "fundator3Alt": "Logo of supporting organization 3"
   },
 
+  "APIsPage": {
+    "howToIntegrateTitle": "How to Integrate KARL",
+    "howToIntegrateDesc": "With our simple, easy-to-use APIs, KARL’s irrigation maps seamlessly integrate with irrigation controllers, fully automating the satellite-based irrigation process. Irrigation machinery is automatically adjusted based on KARL’s recommendations, delivering precisely the right amount of water exactly where it’s needed.",
+    "codeAlt": "API integration example code",
+    "raindancerTitle": "Raindancer",
+    "raindancerDesc": "KARL is now available within the Raindancer platform. By integrating KARL’s advanced satellite irrigation maps into Raindancer, we provide farmers with an easy, effective way to harness the power of satellite data for optimized irrigation practices.",
+    "raindancerAlt": "Raindancer logo",
+    "raindancerScreenshotAlt": "Raindancer platform showing irrigation map"
+  },
+
+  "ContactPage": {
+    "bgAlt": "Farm field aerial background",
+    "getInTouch": "Get in Touch",
+    "contactUs": "Contact Us",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+
   "NotFound": {
     "title": "OOPS!!!!!\nTHIS PAGE IS NOT AVAILABLE",
     "description": "It seems someone didn’t do their job properly :/\n(Or did an incomplete job)",

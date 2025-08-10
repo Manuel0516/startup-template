@@ -48,7 +48,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className={`${poppins.variable} ${openSans.variable}`}>
+    <html lang={locale} data-scroll-behavior="smooth" className={`${poppins.variable} ${openSans.variable}`}>
       <head />
       <body>
         <NextIntlClientProvider locale={locale} /* + messages prop as needed */>
