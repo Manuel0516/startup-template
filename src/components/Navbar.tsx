@@ -83,7 +83,7 @@ export default function Navbar() {
             absolute top-full left-0 w-full
             bg-background/90 backdrop-blur-sm
             rounded-b-xl
-            z-50
+            z-10
             flex flex-col items-center space-y-6 py-4
             text-l
             overflow-hidden

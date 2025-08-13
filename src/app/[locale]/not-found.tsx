@@ -10,7 +10,7 @@ export default function NotFound() {
   const [count, setCount] = useState(() => Math.floor(Math.random() * 50) + 1);
 
   return (
-    <div className="relative min-h-[88vh] w-full">
+    <div className="relative min-h-[calc(100dvh-120px)] w-full">
       {/* background */}
       <Image
         src="/images/background.png"

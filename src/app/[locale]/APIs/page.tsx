@@ -5,26 +5,26 @@ import CodeBlock from '@/components/CodeBlock';
 export default async function APIsPage() {
   const t = await getTranslations('APIsPage');
 
-  const curlExample = `curl -X 'POST' \\
-  'https://dev-karl.atla.ai/irrigation/zones/zone_height' \\
-  -H 'accept: application/json' \\
-  -H 'Content-Type: application/json' \\
-  -d '{
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Point",
-        "coordinates": [8.5708, 56.4722],
-        "properties": {
-          "timestamp": "204-10-02T14:15:06.149851"
+  const curlExample = `curl -X POST \\
+    'https://api.example.com/data/process' \\
+    -H 'Accept: application/json' \\
+    -H 'Content-Type: application/json' \\
+    -d '{
+      "type": "SampleData",
+      "items": [
+        {
+          "id": 123,
+          "name": "Example Item",
+          "properties": {
+            "created_at": "2025-01-15T10:30:00Z"
+          }
         }
-      }
-    ]
-  }'`;
+      ]
+    }'`;
 
   return (
     <div className="w-full">
-      <div className="relative bg-white">
+      <div className="relative min-h-[calc(100dvh-120px)] bg-white">
         {/* --- HOW TO INTEGRATE --- */}
         <section className="max-w-7xl mx-auto px-6 md:px-16 py-10 flex flex-col md:flex-row gap-8">
           {/* Text */}

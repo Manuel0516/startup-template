@@ -54,6 +54,7 @@ export default function LocaleSwitcher() {
         <button
           aria-label={t('label')}
           className="
+            m-auto
             p-1
             bg-[#FFFFFF]
             rounded-3xl
@@ -81,9 +82,10 @@ export default function LocaleSwitcher() {
           if (e.propertyName === 'max-height') setAnimating(false);
         }}
         className={`
-          absolute right-0 top-full mt-2
+          ml-[1px]
+          relative md:absolute right-0 top-full mt-2
           bg-[#FFF] shadow-lg rounded-3xl
-          overflow-hidden translate-x-1
+          overflow-hidden md:translate-x-1
           transition-[max-height,opacity] duration-800 ease-out
           p-0 flex flex-col items-center space-y-2
           ${open
