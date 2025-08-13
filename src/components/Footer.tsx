@@ -28,7 +28,7 @@ export default function Footer() {
           <Link href="/terms" className="max-sm:flex-1 text-center hover:underline hover:text-gray-200">
             {t('terms')}
           </Link>
-          <Link href="/privacy" className="max-sm:flex-1 text-center hover:underline hover:text-gray-200">
+          <Link href="/terms#privacy" className="max-sm:flex-1 text-center hover:underline hover:text-gray-200">
             {t('privacy')}
           </Link>
           <Link href="/contact" className="max-sm:flex-1 text-center hover:underline hover:text-gray-200">

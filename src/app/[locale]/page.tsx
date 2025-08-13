@@ -21,7 +21,7 @@ export default async function HomePage() {
         {/* content overlay */}
         <div className="font-poppins relative z-10 flex flex-row items-center px-6 py-8 gap-2">
           {/* left: hero text + button (2/3 width) */}
-          <div className="w-65/100 flex flex-col justify-center items-center">
+          <div className="w-55/100 flex flex-col justify-center items-center">
             <div className="flex flex-col justify-start items-center">
               <h1 className="text-xl md:text-3xl lg:text-5xl font-bold text-white leading-tight whitespace-pre-line">
                 {t('heroLine')}
@@ -35,7 +35,7 @@ export default async function HomePage() {
             </div>
           </div>
           {/* right: ipad image (1/3 width) */}
-          <div className="flex w-35/100 justify-center">
+          <div className="flex w-45/100 justify-center">
             <div className="relative">
               <Image
                 src="/images/ipad.png"
@@ -157,7 +157,7 @@ export default async function HomePage() {
           <h2 className="w-full text-2xl font-bold mb-4">
             {t('fundedByTitle')}
           </h2>
-          <div className='w-full flex flex-col justify-center items-center sm:flex-row gap-4'>
+          <div className='w-full flex flex-col justify-between items-center sm:flex-row gap-4'>
             {['fundator1','fundator2','fundator3'].map((key) => (
               <Image
                 key={key}

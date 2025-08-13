@@ -16,63 +16,124 @@
     "privacy": "Privacy Policy",
     "contact": "Contact",
     "linkedin": "LinkedIn",
-    "brand": "by KARL Irrigation.",
+    "brand": "by Our Amazing brand",
     "rights": "All rights reserved.",
-    "altLogo": "KARL logo"
+    "altLogo": "Logo"
   },
 
   "HomePage": {
-    "imageAlt": "Background image showing a field with irrigation data",
-    "heroLine": "Precision Irrigation\nwith AI & Satellite Data",
-    "requestDemo": "Request a Demo",
-    "ipadAlt": "Irrigation Map displayed on an iPad",
-    "howItWorksTitle": "How it Works",
-    "howItWorksDesc": "KARL uses satellite data to generate precise irrigation recommendations, helping farmers optimize water use and boost crop yields. Seamlessly integrating with irrigation machinery and farm management platforms, KARL delivers efficient water management solutions tailored to each field’s needs.",
-    "optimizedWater": "Optimized water use",
-    "optimizedWaterAlt": "Icon representing optimized water use",
-    "increasedYield": "Increased yield",
-    "increasedYieldAlt": "Icon representing increased crop yield",
-    "improvedSoil": "Improved soil health",
-    "improvedSoilAlt": "Icon representing improved soil health",
-    "irrigationMappingTitle": "Irrigation Mapping",
-    "etMappingTitle": "Evapotranspiration (ET) Mapping",
-    "etMappingDesc": "KARL’s Irrigation Maps are derived in part by 20-meter resolution daily evapotranspiration (ET) data, offering insights tailored to the growing crop’s water requirements. This localized ET data also supports precise and efficient satellite-based irrigation management for any farmers using irrigation systems.",
-    "localizedMappingTitle": "Localized Irrigation Mapping for Machinery",
-    "localizedMappingDesc": "KARL’s irrigation maps are designed specifically for the irrigation machinery they are being used for. By taking in irrigation machine geometry, KARL offers localized water application maps enabling site- and machine-targeted irrigation, ensuring water reaches exactly where it’s needed.",
-    "supportedTypesTitle": "Supported Types of Irrigation",
-    "hoseReelTitle": "Hose Reel Irrigation",
-    "hoseReelAlt": "Image of a hose reel irrigation system",
-    "linearTitle": "Linear Irrigation",
-    "linearAlt": "Image of a linear irrigation system",
-    "pivotTitle": "Pivot Irrigation",
-    "pivotAlt": "Image of a pivot irrigation system",
-    "fundedByTitle": "Funded & Supported By",
-    "fundator1Alt": "Logo of supporting organization 1",
-    "fundator2Alt": "Logo of supporting organization 2",
-    "fundator3Alt": "Logo of supporting organization 3"
+    "imageAlt": "Background pattern with abstract shapes",
+    "heroLine": "Smart Solutions\nwith AI & Cloud Data",
+    "requestDemo": "Try a Demo",
+    "ipadAlt": "Example dashboard displayed on a tablet",
+    "howItWorksTitle": "Overview",
+    "howItWorksDesc": "Our system uses remote data to generate useful insights, helping organizations improve efficiency and make informed decisions. Seamlessly integrating with equipment and management tools, it delivers practical solutions tailored to each project’s unique needs.",
+    "optimizedWater": "Efficient resource use",
+    "optimizedWaterAlt": "Icon representing resource efficiency",
+    "increasedYield": "Better performance",
+    "increasedYieldAlt": "Icon representing improved performance",
+    "improvedSoil": "Enhanced quality",
+    "improvedSoilAlt": "Icon representing improved quality",
+    "irrigationMappingTitle": "Data Mapping",
+    "etMappingTitle": "Usage Tracking",
+    "etMappingDesc": "Our data maps are derived from daily measurements with high resolution, offering insights tailored to the current operational requirements. This information also supports precise and efficient resource management for any system in use.",
+    "localizedMappingTitle": "Custom Data Mapping for Devices",
+    "localizedMappingDesc": "The maps are designed specifically for the devices they will be used on. By factoring in device configuration, we offer targeted data layers ensuring adjustments reach exactly where they are required.",
+    "supportedTypesTitle": "Supported Equipment Types",
+    "hoseReelTitle": "Mobile Reel Device",
+    "hoseReelAlt": "Image of a mobile reel device",
+    "linearTitle": "Linear Device",
+    "linearAlt": "Image of a linear device",
+    "pivotTitle": "Rotary Device",
+    "pivotAlt": "Image of a rotary device",
+    "fundedByTitle": "Supported By",
+    "fundator1Alt": "Logo of supporting group 1",
+    "fundator2Alt": "Logo of supporting group 2",
+    "fundator3Alt": "Logo of supporting group 3"
   },
 
   "APIsPage": {
-    "howToIntegrateTitle": "How to Integrate KARL",
-    "howToIntegrateDesc": "With our simple, easy-to-use APIs, KARL’s irrigation maps seamlessly integrate with irrigation controllers, fully automating the satellite-based irrigation process. Irrigation machinery is automatically adjusted based on KARL’s recommendations, delivering precisely the right amount of water exactly where it’s needed.",
-    "codeAlt": "API integration example code",
-    "raindancerTitle": "Raindancer",
-    "raindancerDesc": "KARL is now available within the Raindancer platform. By integrating KARL’s advanced satellite irrigation maps into Raindancer, we provide farmers with an easy, effective way to harness the power of satellite data for optimized irrigation practices.",
-    "raindancerAlt": "Raindancer logo",
-    "raindancerScreenshotAlt": "Raindancer platform showing irrigation map"
+    "howToIntegrateTitle": "How to Integrate the API",
+    "howToIntegrateDesc": "With our simple APIs, the generated maps can integrate with controllers, fully automating the data-driven process. Devices are automatically adjusted based on the provided recommendations, delivering exactly the right action where it is required.",
+    "codeAlt": "Example code for API integration",
+    "raindancerTitle": "Partner Platform",
+    "raindancerDesc": "Our service is now available within the partner platform. By integrating advanced mapping into the platform, we provide users with an easy, effective way to harness the power of external data for optimized operations.",
+    "raindancerAlt": "Partner platform logo",
+    "raindancerScreenshotAlt": "Platform screenshot showing a sample map"
   },
 
   "ContactPage": {
-    "bgAlt": "Farm field aerial background",
-    "getInTouch": "Get in Touch",
-    "contactUs": "Contact Us",
+    "bgAlt": "Abstract background image",
+    "getInTouch": "Send a Message",
+    "contactUs": "Contact Form",
     "firstName": "First Name",
-    "lastName": "Last Name",
-    "email": "Email",
-    "message": "Message",
+    "lastName": "Surname",
+    "email": "Email Address",
+    "message": "Your Message",
     "send": "Send"
   },
 
+  "TermsPage": {
+    "bgAlt": "Abstract patterned background",
+    "title": "User Agreement",
+    "lastUpdated": "Last updated: {date}",
+    "definitions": {
+      "h": "1. Definitions",
+      "p1": "\"We\", \"our\", and \"the Service\" refer to Example Company. \"Services\" include our site, APIs, data sets, and related software."
+    },
+    "services": {
+      "h": "2. Services",
+      "p1": "We provide online tools and related APIs. We may update or discontinue features at any time.",
+      "l1": "Service availability may vary by location and integrations.",
+      "l2": "Trials are time-limited and may be withdrawn for misuse.",
+      "l3": "Beta features are provided without guarantees."
+    },
+    "accounts": {
+      "h": "3. Accounts & Access",
+      "p1": "You are responsible for protecting your credentials and ensuring your activity follows these terms."
+    },
+    "apiUse": {
+      "h": "4. API Use",
+      "l1": "Do not share keys or exceed allowed request limits.",
+      "l2": "Store and use data only as permitted by documentation.",
+      "l3": "Do not reverse engineer or scrape beyond approved endpoints."
+    },
+    "payments": {
+      "h": "5. Fees & Payments",
+      "p1": "Paid plans and usage charges are outlined in your account or order details. All fees are non-refundable unless required by law."
+    },
+    "ip": {
+      "h": "6. Intellectual Property",
+      "p1": "We retain all rights to the Services and content. You own your content. Using our APIs does not grant ownership of our IP."
+    },
+    "acceptableUse": {
+      "h": "7. Acceptable Use",
+      "l1": "No illegal or harmful activities.",
+      "l2": "No disruption or overload of the Services.",
+      "l3": "Respect privacy and intellectual property rights.",
+      "l4": "Follow applicable laws and regulations."
+    },
+    "privacy": {
+      "h": "8. Privacy",
+      "p1": "We process personal data according to our Privacy Policy and applicable laws."
+    },
+    "disclaimers": {
+      "h": "9. Disclaimers",
+      "p1": "The Services are provided \"as is\" without warranties, to the extent permitted by law."
+    },
+    "liability": {
+      "h": "10. Limitation of Liability",
+      "p1": "To the extent permitted by law, we are not liable for indirect or consequential damages."
+    },
+    "law": {
+      "h": "11. Governing Law",
+      "p1": "These terms are governed by the laws of the relevant jurisdiction."
+    },
+    "contact": {
+      "h": "12. Contact",
+      "p1": "Questions about these terms? Contact us at"
+    }
+  },
   "NotFound": {
     "title": "OOPS!!!!!\nTHIS PAGE IS NOT AVAILABLE",
     "description": "It seems someone didn’t do their job properly :/\n(Or did an incomplete job)",
@@ -81,6 +142,4 @@
     "home-text": "Click here to return to the homepage",
     "home": "Home"
   }
-
-
 }

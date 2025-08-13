@@ -1,41 +1,146 @@
 {
   "LocaleSwitcher": {
-    "label": "Change language",
+    "label": "Byt språk",
     "locale": "{locale}"
   },
 
   "Navbar": {
-    "home": "Home",
-    "features": "Features",
-    "apis": "APIs",
-    "contact": "Contact"
+    "home": "Hem",
+    "features": "Funktioner",
+    "apis": "API:er",
+    "contact": "Kontakt"
   },
 
   "Footer": {
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "contact": "Contact",
+    "terms": "Villkor",
+    "privacy": "Integritetspolicy",
+    "contact": "Kontakt",
     "linkedin": "LinkedIn",
-    "brand": "by KARL Irrigation.",
-    "rights": "All rights reserved."
+    "brand": "av Vårt Fantastiska Varumärke",
+    "rights": "Alla rättigheter förbehållna.",
+    "altLogo": "Logotyp"
   },
-  
+
   "HomePage": {
-    "ImageAlt": "Image of Azores islands",
-    "title": "THERAPIES ALTERNATIVES",
-    "subtitle": "The best way of taking care of yourself",
-    "buttonStay": "Stay",
-    "buttonServices": "Services"
-
+    "imageAlt": "Bakgrundsmönster med abstrakta former",
+    "heroLine": "Smarta lösningar\nmed AI och molndata",
+    "requestDemo": "Prova en demo",
+    "ipadAlt": "Exempeldashboard visad på en surfplatta",
+    "howItWorksTitle": "Översikt",
+    "howItWorksDesc": "Vårt system använder fjärrdata för att generera värdefulla insikter som hjälper organisationer att förbättra effektiviteten och fatta välgrundade beslut. Det integreras sömlöst med utrustning och ledningsverktyg och levererar praktiska lösningar anpassade efter varje projekts unika behov.",
+    "optimizedWater": "Effektiv resursanvändning",
+    "optimizedWaterAlt": "Ikon som representerar resurseffektivitet",
+    "increasedYield": "Bättre prestanda",
+    "increasedYieldAlt": "Ikon som representerar förbättrad prestanda",
+    "improvedSoil": "Förbättrad kvalitet",
+    "improvedSoilAlt": "Ikon som representerar förbättrad kvalitet",
+    "irrigationMappingTitle": "Datakartläggning",
+    "etMappingTitle": "Användningsspårning",
+    "etMappingDesc": "Våra datakartor bygger på dagliga mätningar med hög upplösning och ger insikter anpassade till aktuella driftkrav. Denna information stöder även precis och effektiv resursförvaltning för alla typer av system.",
+    "localizedMappingTitle": "Anpassad datakartläggning för enheter",
+    "localizedMappingDesc": "Kartorna är utformade specifikt för de enheter de ska användas på. Genom att ta hänsyn till enhetens konfiguration erbjuder vi riktade datalager som säkerställer att justeringar når exakt där de behövs.",
+    "supportedTypesTitle": "Stödda utrustningstyper",
+    "hoseReelTitle": "Mobil rullenhet",
+    "hoseReelAlt": "Bild på en mobil rullenhet",
+    "linearTitle": "Linjär enhet",
+    "linearAlt": "Bild på en linjär enhet",
+    "pivotTitle": "Roterande enhet",
+    "pivotAlt": "Bild på en roterande enhet",
+    "fundedByTitle": "Stöds av",
+    "fundator1Alt": "Logotyp för stödorganisation 1",
+    "fundator2Alt": "Logotyp för stödorganisation 2",
+    "fundator3Alt": "Logotyp för stödorganisation 3"
   },
+
+  "APIsPage": {
+    "howToIntegrateTitle": "Så här integrerar du API:et",
+    "howToIntegrateDesc": "Med våra enkla API:er kan de genererade kartorna integreras med styrsystem och automatisera den datadrivna processen helt. Enheter justeras automatiskt baserat på de givna rekommendationerna och levererar exakt rätt åtgärd där den behövs.",
+    "codeAlt": "Exempelkod för API-integration",
+    "raindancerTitle": "Partnerplattform",
+    "raindancerDesc": "Vår tjänst är nu tillgänglig på partnerplattformen. Genom att integrera avancerad kartläggning i plattformen ger vi användare ett enkelt och effektivt sätt att utnyttja extern data för optimerad verksamhet.",
+    "raindancerAlt": "Logotyp för partnerplattform",
+    "raindancerScreenshotAlt": "Skärmbild från plattform som visar ett exempel på en karta"
+  },
+
+  "ContactPage": {
+    "bgAlt": "Abstrakt bakgrundsbild",
+    "getInTouch": "Skicka ett meddelande",
+    "contactUs": "Kontaktformulär",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "email": "E-postadress",
+    "message": "Ditt meddelande",
+    "send": "Skicka"
+  },
+
+  "TermsPage": {
+    "bgAlt": "Abstrakt mönstrad bakgrund",
+    "title": "Användarvillkor",
+    "lastUpdated": "Senast uppdaterad: {date}",
+    "definitions": {
+      "h": "1. Definitioner",
+      "p1": "\"Vi\", \"vår\" och \"tjänsten\" avser Exempelföretaget. \"Tjänster\" inkluderar vår webbplats, API:er, datamängder och relaterad programvara."
+    },
+    "services": {
+      "h": "2. Tjänster",
+      "p1": "Vi tillhandahåller onlineverktyg och relaterade API:er. Vi kan när som helst uppdatera eller ta bort funktioner.",
+      "l1": "Tillgängligheten av tjänster kan variera beroende på plats och integrationer.",
+      "l2": "Prover är tidsbegränsade och kan återkallas vid missbruk.",
+      "l3": "Beta-funktioner tillhandahålls utan garantier."
+    },
+    "accounts": {
+      "h": "3. Konton och åtkomst",
+      "p1": "Du är ansvarig för att skydda dina inloggningsuppgifter och säkerställa att din användning följer dessa villkor."
+    },
+    "apiUse": {
+      "h": "4. Användning av API",
+      "l1": "Dela inte nycklar offentligt eller överskrid de tillåtna begärningsgränserna.",
+      "l2": "Lagra och använd endast data enligt dokumentationen.",
+      "l3": "Ingen reverse engineering eller scraping utöver godkända endpoints."
+    },
+    "payments": {
+      "h": "5. Avgifter och betalningar",
+      "p1": "Betalda planer och användningsavgifter anges i ditt konto eller beställningsinformation. Alla avgifter är icke-återbetalningsbara om inte lagen kräver annat."
+    },
+    "ip": {
+      "h": "6. Immateriella rättigheter",
+      "p1": "Vi behåller alla rättigheter till tjänsterna och innehållet. Du äger ditt innehåll. Användning av våra API:er ger ingen äganderätt till vår IP."
+    },
+    "acceptableUse": {
+      "h": "7. Godtagbar användning",
+      "l1": "Ingen olaglig eller skadlig aktivitet.",
+      "l2": "Ingen störning eller överbelastning av tjänsterna.",
+      "l3": "Respektera integritet och immateriella rättigheter.",
+      "l4": "Följ gällande lagar och förordningar."
+    },
+    "privacy": {
+      "h": "8. Integritet",
+      "p1": "Vi behandlar personuppgifter i enlighet med vår integritetspolicy och tillämpliga lagar."
+    },
+    "disclaimers": {
+      "h": "9. Ansvarsfriskrivningar",
+      "p1": "Tjänsterna tillhandahålls \"i befintligt skick\" utan garantier, i den utsträckning som lagen tillåter."
+    },
+    "liability": {
+      "h": "10. Ansvarsbegränsning",
+      "p1": "I den utsträckning som lagen tillåter är vi inte ansvariga för indirekta eller följdskador."
+    },
+    "law": {
+      "h": "11. Tillämplig lag",
+      "p1": "Dessa villkor regleras av lagarna i relevant jurisdiktion."
+    },
+    "contact": {
+      "h": "12. Kontakt",
+      "p1": "Frågor om dessa villkor? Kontakta oss på"
+    }
+  },
+
   "NotFound": {
-    "title": "OOPS!!!!!\nTHIS PAGE IS NOT AVAILABLE",
-    "description": "It seems someone didn’t do their job properly :/\n(Or did an incomplete job)",
-    "punish-text": "Click here to punish the web developer",
-    "punish-text-2": "Number of times the developer has done something wrong:",
-    "home-text": "Click here to return to the homepage",
-    "home": "Home"
+    "title": "OJDÅ!!!!!\nDEN HÄR SIDAN ÄR INTE TILLGÄNGLIG",
+    "description": "Det verkar som att någon inte har gjort sitt jobb ordentligt :/\n(Eller gjort det halvfärdigt)",
+    "punish-text": "Klicka här för att straffa webbutvecklaren",
+    "punish-text-2": "Antal gånger utvecklaren har gjort fel:",
+    "home-text": "Klicka här för att återgå till startsidan",
+    "home": "Hem"
   }
-
-
 }

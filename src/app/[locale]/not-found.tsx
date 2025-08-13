@@ -1,86 +1,75 @@
-'use client'
+'use client';
 
-import { useTranslations } from 'next-intl'
-import { useState } from 'react'
-import { Link } from '@/i18n/navigation'
-import '../globals.css'
+import { useTranslations } from 'next-intl';
+import { useState } from 'react';
+import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 
 export default function NotFound() {
-  const t = useTranslations('NotFound')
-  const [count, setCount] = useState(() => Math.floor(Math.random() * 50) + 1)
+  const t = useTranslations('NotFound');
+  const [count, setCount] = useState(() => Math.floor(Math.random() * 50) + 1);
 
   return (
-    <div
-      className="
-        font-pompiere
-        relative
-        min-h-screen flex flex-col items-center justify-start
-        whitespace-pre-line text-[#814D24]
-        bg-[#FFEEE1]
-        p-4 pt-10 pb-16
-      "
-    >
-      {/* Signpost icon */}
-      <i className="bi bi-signpost-split text-[6rem] mb-4" />
+    <div className="relative min-h-[88vh] w-full">
+      {/* background */}
+      <Image
+        src="/images/background.png"
+        alt=""
+        fill
+        priority
+        className="object-cover opacity-80"
+      />
 
-      {/* Title */}
-      <h1 className="text-5xl md:text-6xl leading-[1.3] text-center font-bold mb-2">
-        {t('title')}
-      </h1>
-
-      {/* Description */}
-      <p className="text-2xl md:text-2xl text-center mb-8">
-        {t('description')}
-      </p>
-
-      {/* Three sections stacked on mobile, centered */}
-      <div className="flex flex-col items-center w-full space-y-8 mb-12">
-        <div className='flex flex-row items-center justify-between gap-10 p-5'>
-          {/* Punish button */}
-          <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl text-center">{t('punish-text')}</p>
-            <button
-              onClick={() => setCount((c) => c + 1)}
-              className="
-                px-4 py-2 text-xl
-                border-2 border-[#814D24] rounded-full
-                hover:bg-[#814D24] hover:text-[#FFEEE1]
-                transition
-              "
-            >
-              :(
-            </button>
+      {/* content */}
+      <main className="relative z-10 mx-auto max-w-4xl px-6 py-10 md:py-16">
+        {/* card */}
+        <section className="rounded-2xl bg-[#2C4C32]/90 text-white shadow-lg backdrop-blur-sm p-6 md:p-10">
+          {/* icon + title */}
+          <div className="flex flex-col items-center text-center">
+            <i className="bi bi-signpost-split text-[4rem] md:text-[5rem] mb-2 opacity-90" />
+            <h1 className="font-poppins text-3xl md:text-4xl font-bold leading-tight mb-2">
+              {t('title')}
+            </h1>
+            <p className="font-opensans text-base md:text-lg opacity-95 mb-6">
+              {t('description')}
+            </p>
           </div>
 
-          {/* Counter */}
-          <div className="flex flex-col items-center space-y-2">
-            <p className="text-2xl text-center">{t('punish-text-2')}</p>
-            <span className="py-2 text-3xl font-bold">{count}</span>
+          {/* actions */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
+            {/* punish */}
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-base md:text-lg text-center">{t('punish-text')}</p>
+              <button
+                type="button"
+                aria-label="Punish button"
+                onClick={() => setCount((c) => c + 1)}
+                className="rounded-full border-2 border-white/90 px-5 py-2 text-white hover:bg-white/90 hover:text-[#2C4C32] transition"
+              >
+                :(
+              </button>
+            </div>
+
+            {/* counter */}
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-base md:text-lg text-center">{t('punish-text-2')}</p>
+              <span className="text-3xl md:text-4xl font-bold tabular-nums">{count}</span>
+            </div>
+
+            {/* home */}
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-lg md:text-xl text-center">{t('home-text')}</p>
+              <Link
+                href="/"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-white/90 px-6 py-2 text-lg hover:bg-white/90 hover:text-[#2C4C32] transition"
+              >
+                <i className="bi bi-house-fill" />
+                <span>{t('home')}</span>
+              </Link>
+            </div>
           </div>
-        </div>
-
-        {/* Home link */}
-        <div className="flex flex-col items-center space-y-2">
-          <p className="text-4xl text-center">{t('home-text')}</p>
-          <Link
-            href="/"
-            className="
-              inline-flex items-center space-x-2
-              px-6 py-3 text-2xl
-              border-2 border-[#814D24] rounded-full
-              hover:bg-[#814D24] hover:text-[#FFEEE1]
-              transition
-            "
-          >
-            <i className="bi bi-house-fill" />
-            <span>{t('home')}</span>
-          </Link>
-        </div>
-      </div>
-
-      {/* Bottom‐corner icons (tools left, hammer right) */}
-      <i className="bi bi-tools text-2xl text-[#814D24] absolute bottom-4 left-4" />
-      <i className="bi bi-hammer text-2xl text-[#814D24] absolute bottom-4 right-4" />
+        </section>
+      </main>
     </div>
-  )
+  );
 }
